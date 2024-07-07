@@ -25,9 +25,9 @@ nav{
 
 nav ul{
     display: flex;
-    justify-content:space-between;
+    /* justify-content:; */
   align-items: center;
-    margin-right: 150px;
+    margin-right: 180px;
 }
 .hilt{
     color: #FD6E0A;
@@ -35,7 +35,8 @@ nav ul{
 
 nav ul li{
     list-style:none;
-    margin-right: 20px;
+    margin-right: 50px;
+
 
 }
 nav li a{
@@ -67,9 +68,32 @@ nav li a{
 }
 .h3{
     margin-left: 150px;
+    font-weight: 800;
+    font-size: 45px;
 }
 .header{
     background-image: url("../images/developer.png"),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    background-color: #FFF8F3;
+    margin-bottom: 60px;
+}
+.page-3{
+    display: flex;
+    margin: 50px 70px;
+    gap: 24px;
+    
+}
+.page-3-1{
+    padding: 30px;
+    border-radius: 5px;
+    /* margin: 0px  10px ; */
+    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+.tx-cen{
+    text-align: center;
+    margin: 10px 120px 10px;
+}
+.page-3-skill{
+    margin: 100px 120px 60px;
 }
