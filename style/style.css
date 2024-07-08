@@ -43,7 +43,7 @@ nav li a{
     text-decoration: none;
 }
 
-.bt{
+.bt,footer button{
     background-color: #FD6E0A;
     font-weight: bold;
     color: white;
@@ -99,4 +99,56 @@ nav li a{
 }
 .Mun{
     width: 500px;
+    /* border-width: 7px ; */
+    /* border-radius: 50% ; */
+    /* border-style: solid; */
+    /* border-color: rgb(6, 89, 1); */
+    /* padding: 10px; */
+}
+.footer{
+    /* width: 100px; */
+    background-color:#FFF8F3 ;
+    padding:100px 100px;
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* margin: 60px 0px ; */
+}
+footer form{
+    margin: 0px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    /* padding: 20px; */
+}
+.github,.Linkedin{
+    margin-left: 3px;
+    width: 24px;
+}
+
+.connect{
+    width: 50%;
+    padding: 50px;
+    /* margin: 0px 300px 0px 50px; */
+}
+.message{
+    width: 50%;
+    padding: 50px;
+}
+.mes-1{
+    padding: 5px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+}
+.mes-2{
+    height: 170px;
+}
+footer button{
+    margin: 50px 60% 0px 40%;
+    justify-content: center;
+
 }
